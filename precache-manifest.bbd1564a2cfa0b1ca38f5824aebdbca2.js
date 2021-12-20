@@ -1,11 +1,11 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "2aca18658cf91de31834ad2c4518d822",
+    "revision": "c96e5503666737af5320b35623f9c727",
     "url": "/trybe-trivia-project/index.html"
   },
   {
-    "revision": "5a2b6ef17073b92b9fa7",
-    "url": "/trybe-trivia-project/static/css/main.e24d566e.chunk.css"
+    "revision": "faa755b27f925ece71e3",
+    "url": "/trybe-trivia-project/static/css/main.34a0f50a.chunk.css"
   },
   {
     "revision": "2bfe6fe130e22c8015e1",
@@ -16,20 +16,16 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/trybe-trivia-project/static/js/2.acca1d9d.chunk.js.LICENSE"
   },
   {
-    "revision": "5a2b6ef17073b92b9fa7",
-    "url": "/trybe-trivia-project/static/js/main.7cc63034.chunk.js"
+    "revision": "faa755b27f925ece71e3",
+    "url": "/trybe-trivia-project/static/js/main.c0f6ab01.chunk.js"
   },
   {
     "revision": "31055c9c88c3f5ea751f",
     "url": "/trybe-trivia-project/static/js/runtime-main.dc4fa4a5.js"
   },
   {
-    "revision": "98ce48ec378fbe95c6a0caf5b3437bbe",
-    "url": "/trybe-trivia-project/static/media/game-background.98ce48ec.jpg"
-  },
-  {
-    "revision": "c6f26eac59f81716e9e3af9149cfeeab",
-    "url": "/trybe-trivia-project/static/media/login-background.c6f26eac.jpg"
+    "revision": "9afa1511b03eb23738531514ef8c72a2",
+    "url": "/trybe-trivia-project/static/media/login-background.9afa1511.jpg"
   },
   {
     "revision": "466d153e266e6e813c5ef2c55aa5fc2c",
