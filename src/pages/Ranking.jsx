@@ -27,9 +27,10 @@ class Ranking extends Component {
             </ol>
           </div>
           <Link to="/">
-            <button type="button" data-testid="btn-go-home">Início</button>
+            <button type="button" data-testid="btn-go-home">Inicio</button>
           </Link>
         </div>
+        <footer className="image-credit">Background image credit: <a href="https://wallpaperforu.com/music-background-80s-neon-vhs-80s-synth-retrowave-synthwave/">wallpaperforu</a></footer>
       </div>
     );
   }

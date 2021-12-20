@@ -154,7 +154,7 @@ class Jogo extends Component {
           onClick={ this.changeQuestion }
           data-testid="btn-next"
         >
-          Próxima
+          Prohttps://wallpaperforu.com/music-background-80s-neon-vhs-80s-synth-retrowave-synthwave/xima
         </button>
       );
     }
@@ -241,6 +241,7 @@ class Jogo extends Component {
       <div>
         <Header />
         {isLoading ? <Loading /> : this.questions()}
+        <footer className="image-credit">Background image credit: <a href="https://wallpaperforu.com/music-background-80s-neon-vhs-80s-synth-retrowave-synthwave/">wallpaperforu</a></footer>
       </div>
     );
   }

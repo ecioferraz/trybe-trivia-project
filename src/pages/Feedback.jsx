@@ -69,6 +69,7 @@ class Feedback extends Component {
             </Link>
           </div>
         </div>
+        <footer className="image-credit">Background image credit: <a href="https://wallpaperforu.com/music-background-80s-neon-vhs-80s-synth-retrowave-synthwave/">wallpaperforu</a></footer>
       </div>
     );
   }
