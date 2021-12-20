@@ -1,7 +1,7 @@
 .loading {
   display: grid;
   place-items: center;
-  background-image: linear-gradient(to right, #c0c0aa, #1cefff);
+  background-image: linear-gradient(to right, #ff4141, #189fe2);
   height: calc(100vh - 99px);
   font-size: 60px;
 }

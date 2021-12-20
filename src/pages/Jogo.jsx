@@ -126,7 +126,7 @@ class Jogo extends Component {
         });
         writeLocalStorage('ranking', ranking);
       }
-      return history.push('/feedback');
+      return history.push('/trybe-trivia-project/feedback');
     }
     this.setState((prevState) => ({
       currQuestion: prevState.currQuestion + 1,
@@ -154,7 +154,7 @@ class Jogo extends Component {
           onClick={ this.changeQuestion }
           data-testid="btn-next"
         >
-          Prohttps://wallpaperforu.com/music-background-80s-neon-vhs-80s-synth-retrowave-synthwave/xima
+          Proxima
         </button>
       );
     }
@@ -241,7 +241,12 @@ class Jogo extends Component {
       <div>
         <Header />
         {isLoading ? <Loading /> : this.questions()}
-        <footer className="image-credit">Background image credit: <a href="https://wallpaperforu.com/music-background-80s-neon-vhs-80s-synth-retrowave-synthwave/">wallpaperforu</a></footer>
+        <footer className="image-credit">
+          {'Background image credit: '}
+          <a href="https://www.pexels.com/pt-br/@sliceisop?utm_content=attributionCopyText&utm_medium=referral&utm_source=pexels">
+            Guillaume Meurice
+          </a>
+        </footer>
       </div>
     );
   }
