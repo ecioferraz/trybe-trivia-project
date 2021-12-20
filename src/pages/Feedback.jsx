@@ -49,7 +49,7 @@ class Feedback extends Component {
         <div className="feedback-container">
           <div className="cont2">
             { this.feedbackMessage() }
-            <Link to="/">
+            <Link to="/trybe-trivia-project/">
               <button
                 type="button"
                 data-testid="btn-play-again"
@@ -59,7 +59,7 @@ class Feedback extends Component {
                 Jogar novamente
               </button>
             </Link>
-            <Link to="/ranking">
+            <Link to="/trybe-trivia-project/ranking">
               <button
                 type="button"
                 data-testid="btn-ranking"
@@ -69,7 +69,12 @@ class Feedback extends Component {
             </Link>
           </div>
         </div>
-        <footer className="image-credit">Background image credit: <a href="https://wallpaperforu.com/music-background-80s-neon-vhs-80s-synth-retrowave-synthwave/">wallpaperforu</a></footer>
+        <footer className="image-credit">
+          {'Background image credit: '}
+          <a href="https://www.pexels.com/pt-br/@sliceisop?utm_content=attributionCopyText&utm_medium=referral&utm_source=pexels">
+            Guillaume Meurice
+          </a>
+        </footer>
       </div>
     );
   }

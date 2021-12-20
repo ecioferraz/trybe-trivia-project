@@ -88,9 +88,14 @@ class Login extends Component {
               Configurações
             </button>
           </Link>
-          { click && token && <Redirect to="/jogo" /> }
+          { click && token && <Redirect to="/trybe-trivia-project/jogo" /> }
         </fieldset>
-        <footer className="image-credit">Background image credit: <a href="https://www.reddit.com/user/higgsas">higgsas</a></footer>
+        <footer className="image-credit">
+          {'Background image credit: '}
+          <a href="https://www.pexels.com/pt-br/@sliceisop?utm_content=attributionCopyText&utm_medium=referral&utm_source=pexels">
+            Guillaume Meurice
+          </a>
+        </footer>
       </form>
     );
   }

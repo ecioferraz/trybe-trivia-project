@@ -26,11 +26,16 @@ class Ranking extends Component {
               ))}
             </ol>
           </div>
-          <Link to="/">
+          <Link to="/trybe-trivia-project/">
             <button type="button" data-testid="btn-go-home">Inicio</button>
           </Link>
         </div>
-        <footer className="image-credit">Background image credit: <a href="https://wallpaperforu.com/music-background-80s-neon-vhs-80s-synth-retrowave-synthwave/">wallpaperforu</a></footer>
+        <footer className="image-credit">
+          {'Background image credit: '}
+          <a href="https://www.pexels.com/pt-br/@sliceisop?utm_content=attributionCopyText&utm_medium=referral&utm_source=pexels">
+            Guillaume Meurice
+          </a>
+        </footer>
       </div>
     );
   }
