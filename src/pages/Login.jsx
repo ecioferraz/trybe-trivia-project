@@ -52,24 +52,26 @@ class Login extends Component {
           <label htmlFor="email" className="formEmail">
             {'Email: '}
             <input
+              className="emailInput"
               data-testid="input-gravatar-email"
-              value={ email }
               name="email"
-              type="email"
               onChange={ this.handleChange }
+              type="email"
+              value={ email }
             />
           </label>
           <label htmlFor="name" className="formName">
             {'Nome: '}
             <input
+              className="nameInput"
               data-testid="input-player-name"
-              value={ name }
               name="name"
               onChange={ this.handleChange }
+              value={ name }
             />
           </label>
           <button
-            className="btnJogar"
+            className="playBtn"
             type="submit"
             data-testid="btn-play"
             disabled={ !(email && name) }
@@ -80,13 +82,15 @@ class Login extends Component {
             <button
               type="button"
               data-testid="btn-settings"
-              className="btnConfig"
+              className="configBtn"
+              hidden
             >
               Configurações
             </button>
           </Link>
           { click && token && <Redirect to="/jogo" /> }
         </fieldset>
+        <footer className="image-credit">Background image credit: <a href="https://www.reddit.com/user/higgsas">higgsas</a></footer>
       </form>
     );
   }

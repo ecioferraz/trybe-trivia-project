@@ -16,8 +16,8 @@ class Header extends Component {
         </div>
         <div className="user-info">
           <img src={ `https://www.gravatar.com/avatar/${userEmail}` } data-testid="header-profile-picture" alt="gravatar" />
-          <span data-testid="header-player-name">{ name }</span>
-          <p data-testid="header-score">{ `Pontos: ${score}` }</p>
+          <p data-testid="header-player-name">{ name }</p>
+          <p data-testid="header-score">{ `Pontos: ${ score }` }</p>
         </div>
       </header>
     );

@@ -2,7 +2,7 @@ import { LOGIN } from '../actions';
 
 const INITIAL_STATE = {
   email: '',
-  name: 'não informado',
+  name: 'nao informado',
   image: 'https://www.gravatar.com/avatar/00000000000000000000000000000000',
 };
 

@@ -1,9 +1,10 @@
 header {
   display: flex;
   justify-content: space-between;
+  /* background-color: rgb(255, 255, 255, .5); */
   background-image: linear-gradient(to right, #67B26F, #4ca2cd);
-  border-bottom: 3px solid gray;
-  height: 95px;
+  border-bottom: 1px solid gray;
+  height: 50px;
 }
 
 .image-container {
@@ -16,7 +17,7 @@ header {
 
 
 .image-container img {
-  max-width: 150px;
+  max-width: 100px;
   height: auto;
 }
 
@@ -24,14 +25,18 @@ header {
   display: flex;
   align-items: center;
   justify-content: space-between;
-  width: 400px;
+  width: 350px;
   padding: 10px;
   font-size: 20px;
-  margin-right: 4%;
+  margin-right: 10px;
 }
 
 .user-info img {
-  max-width: 60px;
+  max-width: 35px;
   border-radius: 50%;
   border: 2px solid gray;
+}
+
+.user-info p {
+  font-size: 14px;
 }
